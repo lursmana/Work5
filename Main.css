@@ -1,0 +1,46 @@
+body {
+  background-color: burlywood;
+}
+header {
+  display: inline-block;
+  width: 98vw;
+}
+header a {
+  font-family: "bebas";
+  text-decoration: none;
+  font-size: 180%;
+}
+header ul {
+  display: flex;
+  gap: 5rem;
+  width: 50%;
+  justify-self: center;
+  margin-left: 6rem;
+}
+header li {
+  list-style-type: none;
+}
+header img {
+  float: right;
+
+  width: 20%;
+}
+main {
+  display: flex;
+}
+main p {
+  font-family: "caveat";
+  width: 100%;
+}
+
+main img {
+  width: 30%;
+  float: right;
+}
+
+.container {
+  width: 44%;
+  margin: 2rem;
+  margin-top: 4rem;
+  background-color: red;
+}
